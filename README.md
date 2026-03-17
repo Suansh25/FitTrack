@@ -35,3 +35,18 @@ Overall, FitTrack provides a <b>comprehensive and interactive platform</b> for u
 track physical activity, manage nutrition intake, and gain insights into the 
 physiological factors influencing their calorie expenditure.
 </p>
+<h2>Application Screenshots</h2>
+
+<p align="center">
+<h3>Dashboard</h3>
+<img src="screenshots\Main.png" width="800">
+
+<h3>Prediction Insights</h3>
+<img src="screenshots\Insights.png" width="800">
+
+<h3>Food Logger</h3>
+<img src="screenshots\food.png" width="800">
+
+<h3>Progress</h3>
+<img src="screenshots\progress.png" width="800">
+</p>
