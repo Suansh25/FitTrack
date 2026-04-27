@@ -127,7 +127,7 @@ st.markdown("###  Daily Metrics")
 m1, m2, m3 = st.columns(3)
 
 m1.metric("Resting Metabolism (BMR)", f"{int(bmr)} kcal")
-m2.metric("Exercise Burn (AI)", f"{int(exercise_burn)} kcal")
+m2.metric("Exercise Burn ", f"{int(exercise_burn)} kcal")
 m3.metric("Daily Target", f"{int(total_daily_target)} kcal")
 
 
@@ -173,7 +173,7 @@ with st.container():
             )
 
         st.info(
-            "Impact values show how strongly each factor influenced today's calorie burn prediction."
+            "Impact values show how strongly each factor influenced calorie prediction."
         )
 
 st.markdown("###  Food Logger")
