@@ -90,3 +90,116 @@ plt.xlabel('Percentage Error')
 
 plt.tight_layout()
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# st.markdown("### Prediction Insights")
+
+# with st.container():
+
+#     shap_values = explainer.shap_values(input_df)
+#     shap_df = pd.DataFrame({
+#         "Feature": feature_names,
+#         "Impact": shap_values[0]
+#     })
+
+#     shap_df["AbsImpact"] = shap_df["Impact"].abs()
+#     shap_df = shap_df.sort_values("AbsImpact", ascending=False)
+
+   
+#     top_features = shap_df.head(6)
+
+#     col1, col2 = st.columns([1.2, 1])
+
+#     with col1:
+#         st.markdown("#### Key Factors Influencing Burn")
+
+        
+#         chart_df = top_features.set_index("Feature")[["Impact"]]
+#         st.bar_chart(chart_df)
+
+#     with col2:
+#         st.markdown("####  Interpretation")
+
+#         positive = top_features[top_features["Impact"] > 0]
+#         negative = top_features[top_features["Impact"] < 0]
+
+#         if not positive.empty:
+#             st.success(
+#                 f"⬆ Increasing Burn: {', '.join(positive['Feature'].head(3))}"
+#             )
+
+#         if not negative.empty:
+#             st.error(
+#                 f"⬇ Reducing Burn: {', '.join(negative['Feature'].head(3))}"
+#             )
+
+#         st.info(
+#             "Impact values show how strongly each factor influenced calorie prediction."
+#         )
